@@ -37,4 +37,19 @@ git remote add origin https://git.com/sdsd.git: adicionando repositório remoto 
 
 git push "nome do repositorio remoto(origin) master": adicionando os trabalhos ao repositório remoto
 
-######
+
+######CLONANDO PASTA DO GIT##########
+git clone url: clonando pasta do repositório remoto 
+
+
+
+#####ENVIANDO TRABALHO DO REPOSITÓRIO LOCAL PARA O REMOTO####
+git push origin master: enviando arquivos do pc para o seu site do git
+
+
+#####TRABALHANDO COM BRANCHES##########
+git branch: veridifica as branchs do repositorio
+
+git branch cleyton: criando uma nova branch
+
+git checkout cleyton: mudando para outra branch
