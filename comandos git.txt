@@ -1,0 +1,40 @@
+###INFORMANDO O USUÁRIO QUE UTILIZARÁ O REPOSITÓRIO###
+git config user.name "nome"
+git config user.email "email da conta do git"
+
+
+###TRABALHANDO NO REPOSITÓRIO LOCAL###
+git init: inicializa o repositório do git (esteja na pasta que deseje iniciar o git) 
+	ex: pasta -> ~/teste/Documentos/curso-git 
+
+ls-files: verifica quais arquivos estão sendo controlados pelo git
+
+git status: estado atual do repositório
+
+git add "nome": informando o arquivo a ser monitorado pelo git
+
+git commit -m "teste": grava as alterações no repositório
+
+
+
+git log: histórico de commits feitos
+
+git whatchanged: histórico e arquivos que foram alterados
+
+git whatchanged -p: histórico e arquivos que foram alterados e o que foi alterado em cada commit
+
+
+
+
+###TRABALHANDO NO REPOSITÓRIO REMOTO###
+
+Crie um repositório no seu site do git para adicionar seus arquivos
+
+git remote: verificando os repositórios remotos
+
+git remote add origin https://git.com/sdsd.git: adicionando repositório remoto juntamente com a url
+
+
+git push "nome do repositorio remoto(origin) master": adicionando os trabalhos ao repositório remoto
+
+######
