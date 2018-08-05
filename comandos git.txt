@@ -12,10 +12,11 @@ ls-files: verifica quais arquivos estão sendo controlados pelo git
 git status: estado atual do repositório
 
 git add "nome": informando o arquivo a ser monitorado pelo git
-
+git add . : adiciona todos os arquivos de uma vez
+ 
 git commit -m "teste": grava as alterações no repositório
 
-
+git commit -am "comentário": adiciona e comita ao mesmo tempo
 
 git log: histórico de commits feitos
 
@@ -48,8 +49,13 @@ git push origin master: enviando arquivos do pc para o seu site do git
 
 
 #####TRABALHANDO COM BRANCHES##########
-git branch: veridifica as branchs do repositorio
+git branch: mostra as branchs do repositorio local
+git branch -r: mostra as branchs do repositório remoto
 
 git branch cleyton: criando uma nova branch
 
 git checkout cleyton: mudando para outra branch
+
+git push -u origin cleyton: adicionando uma nova branch ao repositório remoto
+
+ 
